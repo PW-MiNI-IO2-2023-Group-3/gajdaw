@@ -10,5 +10,12 @@ namespace EpicProjectTest
             int res = EpicClass.ReturnOne();
             Assert.Equal(1, res);
         }
+
+
+        public void CheckReturn2()
+        {
+            int res = EpicClass.ReturnOne();
+            Assert.Equal(1, res);
+        }
     }
 }
